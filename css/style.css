@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #66785f;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  background-color: #4b5945;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 200px;
+  flex-wrap: wrap;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  /* text-decoration-color: #fff; */
+}
+
+a:active {
+  color: chartreuse;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  transition: 0.3s;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.logo {
+  width: 80px;
+  height: 50px;
+}
+
+.b-istad {
+  background-color: #91ac8f;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+.title {
+  color: rgb(7, 7, 7);
+}
+
+.subtitle {
+  color: #fff;
+}
+
+.hero-section {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 200px;
+  gap: 2rem;
+  flex-wrap: wrap; */
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  gap: 2rem;
+}
+
+.hero-content {
+  flex: 1 1 400px;
+  max-width: 600px;
+}
+
+.hero-content button {
+  margin-bottom: 20px;
+}
+
+.hero-content h1 {
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+}
+
+.b-start {
+  background-color: #91ac8f;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  width: 120px;
+  height: 40px;
+}
+
+.b-view {
+  background-color: #91ac8f;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  width: 170px;
+  height: 40px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.b-fontend,
+.b-blockchain,
+.b-dataAnalytics {
+  background-color: #91ac8f;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.hero-image img {
+  width: 600px;
+  height: 600px;
+  max-width: 500px;
+  height: auto;
+}
+
+.title-2 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 2rem;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  color: #fff;
+}
+.subtitle-2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(7, 7, 7);
+  line-height: 30px;
+}
+
+.hero-section-2 {
+  margin-top: 50px;
+}
+
+.card-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.card-icon {
+  width: 40px;
+  height: 40px;
+  fill: rgb(209, 128, 141);
+  margin-bottom: 20px;
+}
+
+.card-icon-2 {
+  width: 40px;
+  height: 40px;
+  fill: rgb(40, 18, 152);
+  margin-bottom: 20px;
+}
+
+.card-icon-3 {
+  width: 40px;
+  height: 40px;
+  fill: rgb(11, 129, 159);
+  margin-bottom: 20px;
+}
+
+.card-icon-4 {
+  width: 40px;
+  height: 40px;
+  fill: rgb(239, 243, 37);
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #91ac8f;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: none;
+  width: 260px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 4px;
+}
+
+.card-title {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.card-subtitle {
+  color: rgb(7, 7, 7);
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+.b-card {
+  background-color: #31bfa5;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.b-card-2 {
+  background-color: #e1cc59;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.b-card-3 {
+  background-color: #d5352a;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.b-view-all {
+  background-color: #91ac8f;
+  color: #fff;
+  padding: 13px 10px;
+  border-radius: 8px;
+  border: none;
+  width: 200px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
